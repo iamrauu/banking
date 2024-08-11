@@ -122,7 +122,7 @@ const AuthForm = ({ type }: { type: string }) => {
                 <CustomInput control={form.control} name='city' label={`City`} placeholder={`Enter your city`} />
                 <div className='flex gap-4'>
                   <CustomInput control={form.control} name='state' label={`State`} placeholder={`Example: NY`} />
-                  <CustomInput control={form.control} name='postalCode' label={`Postal Code`} placeholder={`M9M9M9`} />
+                  <CustomInput control={form.control} name='postalCode' label={`Postal Code`} placeholder={`10001`} />
                 </div>
                 <div className='flex gap-4'>
                   <CustomInput control={form.control} name='dateOfBirth' label={`Date of Birth`} placeholder={`YYYY-MM-DD`} />
