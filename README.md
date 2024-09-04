@@ -106,18 +106,19 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 ## Screens
 
 ### Sign-in
-
+![PF_2-Signin](https://github.com/user-attachments/assets/30f29b80-70e4-456a-8f49-a980ca8cdd28)
 
 ### Sign-up
-
+![PF_1-Signup](https://github.com/user-attachments/assets/5093b950-0c4d-4aec-8643-643064a70ce9)
 
 ### Main
-
+![PF_3-Dash](https://github.com/user-attachments/assets/120a327b-efa5-4a03-8c57-5137455dd210)
 
 ### My banks
-
+![PF_4-BankAccts](https://github.com/user-attachments/assets/8213d596-cfea-43c7-9f81-9517e5c3cb6c)
 
 ### Transaction History
-
+![PF_5-TransactionHistory](https://github.com/user-attachments/assets/b311076b-a0c3-4b6b-9b0c-b1a534d245c3)
 
 ### Payment Transfer
+![PF_6-PaymentTransfer](https://github.com/user-attachments/assets/f4aa94aa-38c5-48f9-b5d0-83a556d43591)
