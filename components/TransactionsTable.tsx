@@ -52,7 +52,7 @@ const TransactionsTable = ({ transactions }: TransactionTableProps) => {
           return (
             <TableRow 
               key={t.id} 
-              className={`${isDebit || amount[0] === '-' ? 'bg-[#FFFBFA]' : 'bg-[#F6FeF9]'} !over:bg-none !border-b-DEFAULT`}
+              className={`${isDebit || amount[0] === '-' ? 'bg-[#FFFBFA]' : 'bg-[#f7fcf5]'} !over:bg-none !border-b-DEFAULT`}
             >
               <TableCell className='pl-2 pr-10 min-w-32'>
                 {formatDateTime(new Date(t.date)).dateTime}

@@ -118,7 +118,7 @@
   }
 
   .total-balance {
-    @apply flex w-full items-center gap-4 rounded-xl border border-gray-200 p-4 shadow-chart sm:gap-6 sm:p-6;
+    @apply flex w-full items-center gap-4 rounded-md border border-gray-200 p-4 shadow-chart sm:gap-6 sm:p-6;
   }
 
   .total-balance-chart {
@@ -201,11 +201,11 @@
   }
 
   .transactions-account {
-    @apply flex flex-col justify-between gap-4 rounded-lg border-y bg-blue-600 px-4 py-5 md:flex-row;
+    @apply flex flex-col justify-between gap-4 rounded-lg border-y bg-brown-600 px-4 py-5 md:flex-row;
   }
 
   .transactions-account-balance {
-    @apply flex-center flex-col  gap-2 rounded-md bg-blue-25/20 px-4 py-2 text-white;
+    @apply flex-center flex-col  gap-2 rounded-md bg-brown-25/20 px-4 py-2 text-white;
   }
 
   .header-box {
@@ -235,7 +235,7 @@
 
   /* Bank Info */
   .bank-info {
-    @apply gap-[18px] flex p-4 transition-all border bg-blue-25 border-transparent;
+    @apply gap-[18px] flex p-4 transition-all border bg-[#ddd8d3] border-transparent;
   }
 
   /* Category Badge */
@@ -271,7 +271,7 @@
 
   /* Auth */
   .auth-asset {
-    @apply flex h-screen w-full sticky top-0 items-center justify-end bg-sky-1 max-lg:hidden;
+    @apply flex h-screen w-full sticky top-0 items-center justify-end bg-sun-1 max-lg:hidden;
   }
 
   /* Auth Form */
@@ -369,11 +369,11 @@
   }
 
   .sidebar-logo {
-    @apply 2xl:text-26 font-ibm-plex-serif text-[26px] font-bold text-black-1 max-xl:hidden;
+    @apply 2xl:text-26  text-[18px] font-bold text-black-1 max-xl:hidden uppercase;
   }
 
   .sidebar-link {
-    @apply flex gap-3 items-center py-1 md:p-3 2xl:p-4 rounded-lg justify-center xl:justify-start;
+    @apply flex gap-3 items-center py-1 md:p-2 2xl:p-3 rounded-sm justify-center xl:justify-start;
   }
 
   .sidebar-label {

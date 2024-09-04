@@ -14,16 +14,16 @@ const Sidebar = ({user}: SiderbarProps) => {
 
   return (
     <section className='sidebar'>
-      <nav className='flex flex-col gap-4'>
+      <nav className='flex flex-col gap-2'>
         <Link href='/' className='mb-12 cursor-pointer flex items-center gap-2'>
           <Image 
-            className='size-[24px] max-xl:size-14'
+            className='size-[28px] max-xl:size-14'
             src='/icons/logo.svg'
             width={34} height={34}
-            alt='Horizon logo'
+            alt='Plaidfin logo'
           />
           <h1 className='sidebar-logo'>
-            Horizon
+            Plaidfin
           </h1>
         </Link>
         {sidebarLinks.map(item => {
